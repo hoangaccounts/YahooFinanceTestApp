@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206D54212B858C7F001DC68D /* YahooFinanceTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D54202B858C7F001DC68D /* YahooFinanceTestAppApp.swift */; };
+		206D54232B858C7F001DC68D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D54222B858C7F001DC68D /* ContentView.swift */; };
+		206D54252B858C83001DC68D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206D54242B858C83001DC68D /* Assets.xcassets */; };
+		206D54282B858C83001DC68D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206D54272B858C83001DC68D /* Preview Assets.xcassets */; };
+		206D54322B858C84001DC68D /* YahooFinanceTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D54312B858C84001DC68D /* YahooFinanceTestAppTests.swift */; };
+		206D543C2B858C84001DC68D /* YahooFinanceTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D543B2B858C84001DC68D /* YahooFinanceTestAppUITests.swift */; };
+		206D543E2B858C84001DC68D /* YahooFinanceTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D543D2B858C84001DC68D /* YahooFinanceTestAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		206D542E2B858C84001DC68D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206D54152B858C7F001DC68D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206D541C2B858C7F001DC68D;
+			remoteInfo = YahooFinanceTestApp;
+		};
+		206D54382B858C84001DC68D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206D54152B858C7F001DC68D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206D541C2B858C7F001DC68D;
+			remoteInfo = YahooFinanceTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		206D541D2B858C7F001DC68D /* YahooFinanceTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooFinanceTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D54202B858C7F001DC68D /* YahooFinanceTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceTestAppApp.swift; sourceTree = "<group>"; };
+		206D54222B858C7F001DC68D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		206D54242B858C83001DC68D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		206D54272B858C83001DC68D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		206D542D2B858C84001DC68D /* YahooFinanceTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooFinanceTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D54312B858C84001DC68D /* YahooFinanceTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceTestAppTests.swift; sourceTree = "<group>"; };
+		206D54372B858C84001DC68D /* YahooFinanceTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooFinanceTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D543B2B858C84001DC68D /* YahooFinanceTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceTestAppUITests.swift; sourceTree = "<group>"; };
+		206D543D2B858C84001DC68D /* YahooFinanceTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206D541A2B858C7F001DC68D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D542A2B858C84001DC68D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D54342B858C84001DC68D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206D54142B858C7F001DC68D = {
+			isa = PBXGroup;
+			children = (
+				206D541F2B858C7F001DC68D /* YahooFinanceTestApp */,
+				206D54302B858C84001DC68D /* YahooFinanceTestAppTests */,
+				206D543A2B858C84001DC68D /* YahooFinanceTestAppUITests */,
+				206D541E2B858C7F001DC68D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		206D541E2B858C7F001DC68D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				206D541D2B858C7F001DC68D /* YahooFinanceTestApp.app */,
+				206D542D2B858C84001DC68D /* YahooFinanceTestAppTests.xctest */,
+				206D54372B858C84001DC68D /* YahooFinanceTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		206D541F2B858C7F001DC68D /* YahooFinanceTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				206D54202B858C7F001DC68D /* YahooFinanceTestAppApp.swift */,
+				206D54222B858C7F001DC68D /* ContentView.swift */,
+				206D54242B858C83001DC68D /* Assets.xcassets */,
+				206D54262B858C83001DC68D /* Preview Content */,
+			);
+			path = YahooFinanceTestApp;
+			sourceTree = "<group>";
+		};
+		206D54262B858C83001DC68D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				206D54272B858C83001DC68D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		206D54302B858C84001DC68D /* YahooFinanceTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				206D54312B858C84001DC68D /* YahooFinanceTestAppTests.swift */,
+			);
+			path = YahooFinanceTestAppTests;
+			sourceTree = "<group>";
+		};
+		206D543A2B858C84001DC68D /* YahooFinanceTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				206D543B2B858C84001DC68D /* YahooFinanceTestAppUITests.swift */,
+				206D543D2B858C84001DC68D /* YahooFinanceTestAppUITestsLaunchTests.swift */,
+			);
+			path = YahooFinanceTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		206D541C2B858C7F001DC68D /* YahooFinanceTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206D54412B858C84001DC68D /* Build configuration list for PBXNativeTarget "YahooFinanceTestApp" */;
+			buildPhases = (
+				206D54192B858C7F001DC68D /* Sources */,
+				206D541A2B858C7F001DC68D /* Frameworks */,
+				206D541B2B858C7F001DC68D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YahooFinanceTestApp;
+			productName = YahooFinanceTestApp;
+			productReference = 206D541D2B858C7F001DC68D /* YahooFinanceTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		206D542C2B858C84001DC68D /* YahooFinanceTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206D54442B858C84001DC68D /* Build configuration list for PBXNativeTarget "YahooFinanceTestAppTests" */;
+			buildPhases = (
+				206D54292B858C84001DC68D /* Sources */,
+				206D542A2B858C84001DC68D /* Frameworks */,
+				206D542B2B858C84001DC68D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206D542F2B858C84001DC68D /* PBXTargetDependency */,
+			);
+			name = YahooFinanceTestAppTests;
+			productName = YahooFinanceTestAppTests;
+			productReference = 206D542D2B858C84001DC68D /* YahooFinanceTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		206D54362B858C84001DC68D /* YahooFinanceTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206D54472B858C84001DC68D /* Build configuration list for PBXNativeTarget "YahooFinanceTestAppUITests" */;
+			buildPhases = (
+				206D54332B858C84001DC68D /* Sources */,
+				206D54342B858C84001DC68D /* Frameworks */,
+				206D54352B858C84001DC68D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206D54392B858C84001DC68D /* PBXTargetDependency */,
+			);
+			name = YahooFinanceTestAppUITests;
+			productName = YahooFinanceTestAppUITests;
+			productReference = 206D54372B858C84001DC68D /* YahooFinanceTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		206D54152B858C7F001DC68D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					206D541C2B858C7F001DC68D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					206D542C2B858C84001DC68D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 206D541C2B858C7F001DC68D;
+					};
+					206D54362B858C84001DC68D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 206D541C2B858C7F001DC68D;
+					};
+				};
+			};
+			buildConfigurationList = 206D54182B858C7F001DC68D /* Build configuration list for PBXProject "YahooFinanceTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 206D54142B858C7F001DC68D;
+			productRefGroup = 206D541E2B858C7F001DC68D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				206D541C2B858C7F001DC68D /* YahooFinanceTestApp */,
+				206D542C2B858C84001DC68D /* YahooFinanceTestAppTests */,
+				206D54362B858C84001DC68D /* YahooFinanceTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		206D541B2B858C7F001DC68D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D54282B858C83001DC68D /* Preview Assets.xcassets in Resources */,
+				206D54252B858C83001DC68D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D542B2B858C84001DC68D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D54352B858C84001DC68D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		206D54192B858C7F001DC68D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D54232B858C7F001DC68D /* ContentView.swift in Sources */,
+				206D54212B858C7F001DC68D /* YahooFinanceTestAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D54292B858C84001DC68D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D54322B858C84001DC68D /* YahooFinanceTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206D54332B858C84001DC68D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206D543E2B858C84001DC68D /* YahooFinanceTestAppUITestsLaunchTests.swift in Sources */,
+				206D543C2B858C84001DC68D /* YahooFinanceTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		206D542F2B858C84001DC68D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206D541C2B858C7F001DC68D /* YahooFinanceTestApp */;
+			targetProxy = 206D542E2B858C84001DC68D /* PBXContainerItemProxy */;
+		};
+		206D54392B858C84001DC68D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206D541C2B858C7F001DC68D /* YahooFinanceTestApp */;
+			targetProxy = 206D54382B858C84001DC68D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		206D543F2B858C84001DC68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		206D54402B858C84001DC68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		206D54422B858C84001DC68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YahooFinanceTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QTZA7ZBPTJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = llc.hoang.YahooFinanceTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		206D54432B858C84001DC68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YahooFinanceTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QTZA7ZBPTJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = llc.hoang.YahooFinanceTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		206D54452B858C84001DC68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTZA7ZBPTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = llc.hoang.YahooFinanceTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YahooFinanceTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YahooFinanceTestApp";
+			};
+			name = Debug;
+		};
+		206D54462B858C84001DC68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTZA7ZBPTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = llc.hoang.YahooFinanceTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YahooFinanceTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YahooFinanceTestApp";
+			};
+			name = Release;
+		};
+		206D54482B858C84001DC68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTZA7ZBPTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = llc.hoang.YahooFinanceTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YahooFinanceTestApp;
+			};
+			name = Debug;
+		};
+		206D54492B858C84001DC68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTZA7ZBPTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = llc.hoang.YahooFinanceTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YahooFinanceTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		206D54182B858C7F001DC68D /* Build configuration list for PBXProject "YahooFinanceTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D543F2B858C84001DC68D /* Debug */,
+				206D54402B858C84001DC68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206D54412B858C84001DC68D /* Build configuration list for PBXNativeTarget "YahooFinanceTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D54422B858C84001DC68D /* Debug */,
+				206D54432B858C84001DC68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206D54442B858C84001DC68D /* Build configuration list for PBXNativeTarget "YahooFinanceTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D54452B858C84001DC68D /* Debug */,
+				206D54462B858C84001DC68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206D54472B858C84001DC68D /* Build configuration list for PBXNativeTarget "YahooFinanceTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206D54482B858C84001DC68D /* Debug */,
+				206D54492B858C84001DC68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 206D54152B858C7F001DC68D /* Project object */;
+}

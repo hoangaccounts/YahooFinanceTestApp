@@ -21,28 +21,59 @@ struct ContentView: View {
         }
         .padding().onAppear(perform: {
             
+            
+            getStockQuote()
             print("onAppear")
             
-            SwiftYFinance.fetchSearchDataBy(searchTerm: "BYND", callback: {
-                
-                (result: [YFQuoteSearchResult ]?, error:  Error?) in
-                
-                if let someError = error {
-                    textDisplay = "Got error " + someError.localizedDescription
-                }else{
-                    
-                    if let someResult = result{
-                        if someResult.count > 0{
-                            
-                            textDisplay = "Got result for " +  (someResult[0].longname ?? "some long name")
-                            print("Got result back")
-                        }
-                       
-                    }
           
-                }
+        })
+    }
+    
+    
+    func getStockQuote(){
+        
+        let symbol = "AAPL"
+        SwiftYFinance.recentDataBy(identifier: symbol, callback: {
+            (data : RecentStockData?, error: Error?) in
+        
+            if let someError = error {
+                textDisplay = "Got error " + someError.localizedDescription
+            }else{
                 
-            })
+                if let someData = data{
+                    textDisplay = "Price for " + symbol +  " " + String(someData.regularMarketPrice ?? -1.0)
+                    
+                }
+      
+            }
+
+        })
+    
+    }
+    
+    
+    
+    func getSearchData(){
+        
+        SwiftYFinance.fetchSearchDataBy(searchTerm: "BYND", callback: {
+            
+            (result: [YFQuoteSearchResult ]?, error:  Error?) in
+            
+            if let someError = error {
+                textDisplay = "Got error " + someError.localizedDescription
+            }else{
+                
+                if let someResult = result{
+                    if someResult.count > 0{
+                        
+                        textDisplay = "Got result for " +  (someResult[0].longname ?? "some long name")
+                        print("Got result back")
+                    }
+                   
+                }
+      
+            }
+            
         })
     }
 }

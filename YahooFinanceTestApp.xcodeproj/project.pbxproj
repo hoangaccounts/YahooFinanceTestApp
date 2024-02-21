@@ -14,6 +14,7 @@
 		206D54322B858C84001DC68D /* YahooFinanceTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D54312B858C84001DC68D /* YahooFinanceTestAppTests.swift */; };
 		206D543C2B858C84001DC68D /* YahooFinanceTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D543B2B858C84001DC68D /* YahooFinanceTestAppUITests.swift */; };
 		206D543E2B858C84001DC68D /* YahooFinanceTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D543D2B858C84001DC68D /* YahooFinanceTestAppUITestsLaunchTests.swift */; };
+		206D544C2B858F63001DC68D /* SwiftYFinance in Frameworks */ = {isa = PBXBuildFile; productRef = 206D544B2B858F63001DC68D /* SwiftYFinance */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206D544C2B858F63001DC68D /* SwiftYFinance in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = YahooFinanceTestApp;
+			packageProductDependencies = (
+				206D544B2B858F63001DC68D /* SwiftYFinance */,
+			);
 			productName = YahooFinanceTestApp;
 			productReference = 206D541D2B858C7F001DC68D /* YahooFinanceTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 206D54142B858C7F001DC68D;
+			packageReferences = (
+				206D544A2B858F63001DC68D /* XCRemoteSwiftPackageReference "SwiftYFinance" */,
+			);
 			productRefGroup = 206D541E2B858C7F001DC68D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -588,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		206D544A2B858F63001DC68D /* XCRemoteSwiftPackageReference "SwiftYFinance" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AlexRoar/SwiftYFinance";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		206D544B2B858F63001DC68D /* SwiftYFinance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 206D544A2B858F63001DC68D /* XCRemoteSwiftPackageReference "SwiftYFinance" */;
+			productName = SwiftYFinance;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 206D54152B858C7F001DC68D /* Project object */;
 }
